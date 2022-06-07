@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:profile/screens/profile2.dart';
+import 'package:profile/screens/profile3.dart';
+import 'package:profile/screens/profile4.dart';
 void main(){
   runApp(const MyApp());
 }
@@ -7,14 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child:
-          Text("Dkfjks"),
-        ),
-      ),
+      home: Profile4(),
     );
   }
 }
