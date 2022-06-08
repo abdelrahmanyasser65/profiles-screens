@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:profile/screens/profile4.dart';
-import 'package:profile/screens/profile5.dart';
+import 'package:profile/screens/profile6.dart';
 void main(){
   runApp(const MyApp());
 }
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return   MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Profile5(
+      home: Profile6(
 
       ),
     );
