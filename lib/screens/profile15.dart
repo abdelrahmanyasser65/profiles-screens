@@ -190,7 +190,7 @@ class Profile15 extends StatelessWidget {
                 const SizedBox(
                   width: 32,
                 ),
-                const Image(image: AssetImage('images/15p4.png'))
+                const Image(image: AssetImage('images/15p4.png'),)
               ],
             ),
           ),
