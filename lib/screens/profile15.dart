@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-
+final List titles = ['cycling', 'running', 'swimming', 'indoor'];
 class Profile15 extends StatelessWidget {
-  Profile15({Key? key}) : super(key: key);
-  final List titles = ['cycling', 'running', 'swimming', 'indoor'];
+ const Profile15({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {

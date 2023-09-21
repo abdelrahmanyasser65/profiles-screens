@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-
+List images = [
+  'images/p4i.png',
+  'images/p4i2.png',
+];
+List titles = ['FASHION AND STYLE', 'MALE MODELS'];
 class Profile4 extends StatelessWidget {
-  List images = [
-    'images/p4i.png',
-    'images/p4i2.png',
-  ];
-  List titles = ['FASHION AND STYLE', 'MALE MODELS'];
 
-  Profile4({Key? key}) : super(key: key);
+
+ const Profile4({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

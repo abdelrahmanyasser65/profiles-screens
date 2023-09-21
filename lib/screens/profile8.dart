@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-class Profile8 extends StatelessWidget {
 List images=[
   'images/8p2.png',
   'images/8p2.png',
   'images/8p3.png',
   'images/8p4.png',
 ];
+class Profile8 extends StatelessWidget {
 
-  Profile8({Key? key}) : super(key: key);
+
+const  Profile8({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(

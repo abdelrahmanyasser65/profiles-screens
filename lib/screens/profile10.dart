@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+List images = ['images/10p2.png', 'images/10p3.png', 'images/10p4.png'];
+List titles = ['sound', 'Style', 'Travel'];
+List descrption = ['24K followers', '1000 followers', '350 followers'];
+
 class Profile10 extends StatelessWidget {
-  Profile10({Key? key}) : super(key: key);
-  List images = ['images/10p2.png', 'images/10p3.png', 'images/10p4.png'];
-  List titles = ['sound', 'Style', 'Travel'];
-  List descrption = ['24K followers', '1000 followers', '350 followers'];
+  const Profile10({super.key});
+
 
   @override
   Widget build(BuildContext context) {

@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:profile/screens/profile11.dart';
-import 'package:profile/screens/profile12.dart';
-import 'package:profile/screens/profile13.dart';
-import 'package:profile/screens/profile14.dart';
-import 'package:profile/screens/profile15.dart';
-import 'package:profile/screens/profile16.dart';
-//new
+import 'package:profile/screens/all_screens.dart';
+
+
 void main(){
   runApp(const MyApp());
 }
@@ -14,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return   MaterialApp(
+    return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Profile16(),
+      home: AllScreens(),
     );
   }
 }
